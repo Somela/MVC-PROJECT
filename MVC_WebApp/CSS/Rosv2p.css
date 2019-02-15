@@ -1,0 +1,409 @@
+﻿
+/*Login Page*/
+div.centered 
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+    padding-bottom:20px;
+}
+
+.btnWidth{
+    width:100%;
+}
+
+.loginHeader{
+    background-color: #04a0dc;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 7px;    
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.btn-logout{
+    background-color:#04a0dc;
+    color: white;
+}
+
+/*Master Page*/
+.bg-logo {
+    padding-top:5px;
+    padding-bottom:10px;
+    height:70px; 
+    width:100px;
+}
+
+
+#menuTab ul li.hidden {
+    display: none;   
+}
+
+.logOut{
+    float:right;
+}
+
+/*.divPolicyAmount{
+    float:right;
+    top: calc(20% - 35px);
+    left: calc(60% - 160px);
+    padding-right:210px;
+    z-index:auto;
+}*/
+
+/*.divPolicy{
+    float:right;
+    top: calc(20% - 35px);
+    left: calc(60% - 160px);
+    padding-right:25px;
+    z-index:auto;
+}*/
+/*.mainorders {
+    padding: 5px 0 0 20px;
+    color: rgba(84, 84, 84, 0.73);
+    text-shadow: #000 0px 0px 0.5px;
+    margin: 3px 2px 0 0;
+}*/
+/*.subOrder {
+    margin: 0 0 0 0px;
+    padding: 0 0 0 35px;
+}*/
+.outside {
+    overflow: auto;
+}
+.divborder {
+    height: 113px;
+    width: 350px;
+    border: 1px solid #a7a7a7;
+    float: left;
+    margin-left: 35px;
+}
+.divAppbrith {
+    float: right;
+    padding-right: 450px;
+}
+.divsubborder {
+    height: 82px;
+    width: 375px;
+    border: 1px solid #a7a7a7;
+    float: left;
+    margin-left: 10px;
+}
+.divCancelbutton {
+    float: right;
+    padding-right: 20px;
+}
+/*.padding {
+    padding: 10px 0 0 20px;
+}*/
+.buttonpad {
+    padding-top: 43px;
+    padding-left: 400px;
+}
+.align {
+    padding-top: 6px;
+    padding-left: 5px;
+}
+.padleft {
+    padding-left: 5px;
+}
+.user {
+    padding-left: 104px;
+}
+.paddLeft {
+    padding-left: 500px;
+}
+.padName {
+    padding-top: 20px;
+}
+
+.fontWhite {
+    color: #fff;
+    padding-top:20px;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.divApplicant {
+    height: 535px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.appTable{
+    height: 475px;
+}
+td {
+    padding: 4px;
+}
+#txtAppAddressFirst #txtAppAddressSecond #txtAppAddressThird {
+    width: 405px;
+}
+
+.dropdownWidth{
+    width:500px !important;
+}
+.center_div{
+    width:45%;    
+    border: 1px solid #a7a7a7;
+    position: absolute;
+    z-index: 15;
+    top: 45%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+    padding-bottom: 20px;
+}
+.tdPadding{
+    width: 130px;
+    font-size: smaller;
+    color: red;
+}
+
+.trAlign{
+    padding-left:20px;
+}
+
+/*Search page*/
+
+.divSearch{
+    height: 565px;
+    padding-top:20px;
+    padding-left:55px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 48%;
+    float: left;
+}
+
+.divListsource{
+    padding-left:80px;
+    padding-top:20px;
+}
+
+.divSubSearch{
+    padding-left:0px;
+}
+
+.datatable{
+    float:right;
+    width:52%;
+    border-right: 1px solid #ddd;
+}
+.tableContent{
+    padding:10px 10px 10px 10px;
+}
+/*Contact Tab*/
+
+.divContact {
+    height: 535px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.Txtwidth{
+    width:200px;
+}
+
+.paddingtd {
+    padding: 15px !important;
+}
+
+.paddingtr{
+    padding-top:40px !important;
+    width:650px;
+}
+
+.divOtherContact {
+    padding-top: 26px;
+    padding-right: 250px;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+/*Doctor Tab*/
+
+.divDoctor {
+    padding-top: 15px;
+    padding-left: 30px;
+    height: 535px;
+}
+
+.padlefttd {
+    padding-left: 30px;
+}
+
+#lstboxDocInstruction {
+    width: 650px;
+    height: 103px;
+}
+
+.txtAddress{
+    width:430px;
+}
+
+/*Authorization Tab*/
+
+.Maindiv{
+    height: 535px;
+}
+
+.divAuthorization {
+    padding-top: 20px;
+    padding-left: 30px;    
+    width: 650px;
+    height:490px;
+}
+
+.chkBoxWidth {
+    height: 270px;    
+    width: 500px;
+    border:1px solid #ddd;
+}
+
+.chkPosition{    
+    margin:20px 0 0 20px;
+}
+
+/*Additional Information Tab*/
+
+.divAdditionalInfo {
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 490px;
+}
+.AddZipbox{
+    width:240px;
+}
+.AddAgentNamebox{
+    width:250px;
+}
+.AddAddressbox {
+    width: 522px;
+}
+.AddNamebox{
+    width:325px;
+}
+
+/*Additional report and supplements Tab*/
+.divAdditionalReport{
+    padding-top: 30px;
+    padding-left: 30px;
+    height:490px;
+    padding-right: 450px;
+}
+fieldset.border {    
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+.AreaAdditionalRemarkbox {
+    width: 520px;
+    height: 150px;
+    resize: none;
+}
+
+/*Order Tab*/
+.divOrder{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+.textArea{
+    width:100%;
+    height: 216px;
+    padding-left: 20px;
+}
+.areaorderSpecialinstrbox{
+    width:500px;
+    height:150px;
+    resize:none;
+}
+
+.radio{
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio label {
+  min-height: 20px;
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.radio + .radio {
+  margin-top: -5px;
+}
+.radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.radio-inline + .radio-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+input[type="radio"][disabled],
+input[type="radio"].disabled,
+fieldset[disabled] input[type="radio"] {
+  cursor: not-allowed;
+}
+.radio-inline.disabled,
+fieldset[disabled] .radio-inline {
+  cursor: not-allowed;
+}
+.radio.disabled label,
+fieldset[disabled] .radio label {
+  cursor: not-allowed;
+}
+
+
+/*Datatable row selection color*/
+
+tr.row_selected td{color:white;background-color:#04a0dc !important;}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+tbody.scrollable {
+    overflow-y: scroll; overflow-x: hidden; height: 100px;
+}
+
+.inner_table{
+    height: 250px;
+    overflow-y: auto;    
+}
+.sourcePad{
+    padding-right: 1px !important;
+}
+iframe{
+    overflow:hidden;
+}

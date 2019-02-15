@@ -1,0 +1,9 @@
+﻿#btnCreate {
+    float: right;
+    margin: 20px;
+}
+
+.modal-content {
+    width: 600px !important;
+    margin: 30px auto !important;
+}
